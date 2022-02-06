@@ -29,6 +29,6 @@ while(i < 20){
 
 // for loop 
 
-for(i = o; i < 30; i++;){
+for(i = o; i < 30; i++){
     console(i);
 }
