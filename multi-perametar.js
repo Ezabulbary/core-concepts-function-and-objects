@@ -29,3 +29,17 @@ function bookPrice(java, javascript, php){
 
 var total = bookPrice(100, 122, 233);
 console.log('your subtraction bill', total);
+
+
+// division
+
+function penPrice(price, pen){
+    console.log(price, pen);
+    var division = price / pen;
+    return division;
+}
+
+var secondPen = 30;
+var thirdPen = 5;
+var total = penPrice(secondPen, thirdPen);
+console.log('This is your pen price average', total);
